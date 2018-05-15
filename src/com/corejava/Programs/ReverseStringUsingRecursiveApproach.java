@@ -3,6 +3,15 @@ package com.corejava.Programs;
 public class ReverseStringUsingRecursiveApproach {
 	
 	
+	/***
+	@Author: Azharuddin Khan
+	@Description:This Program is used to Reverse a string using recursive method.
+	//calling method recursively till all string got reversed,
+		//text.charAt(0) will take first character of string and it will add into end of string
+		//again it will check for null or length and then , same logic will applied for remaining String
+		//it will execute till string length became 1
+	***/
+	
 	public String reverseStringRecursively(String text)
 	{
 		//here check string is null or length is less than or equal to 1, then return string
