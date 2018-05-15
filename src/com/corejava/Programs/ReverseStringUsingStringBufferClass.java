@@ -2,6 +2,10 @@ package com.corejava.Programs;
 
 public class ReverseStringUsingStringBufferClass {
 	
+	/***
+         @Author:Azharuddin Khan
+         @Description: This program is used to Reverse a input string using stringbuffer class reverse Method.
+        ***/
 	public StringBuffer reverseStringUsingStringBuffer(String text)
 	{
 		StringBuffer sbf=new StringBuffer(text);
