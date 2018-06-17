@@ -13,7 +13,7 @@ public class IsNumberOrNot {
 	 * MethodName:isNumberOrNot  
 	 * @param input is String type
 	 * @return boolean
-	 * Decription: This method will take string as input and will check given String input is numeric or not , 
+	 * Description: This method will take string as input and will check given String input is numeric or not , 
 	 * if its numeric will return true else return false
 	 * 
 	 */
