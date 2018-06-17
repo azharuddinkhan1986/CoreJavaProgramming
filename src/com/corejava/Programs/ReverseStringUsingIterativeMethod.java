@@ -11,9 +11,9 @@ public class ReverseStringUsingIterativeMethod {
 	
 	public void reverseStringWithIterativeApproach(String text)
 	{
-		if(text.length()==0||text.equals(""))
+		if(text.length()==0||text.equals("")||text.equals(" "))
 		{
-			System.out.println("String length is 0 or null");
+			System.out.print("String length is 0 or null or space");
 		}
 		
 		//Convert String into char array
@@ -26,13 +26,19 @@ public class ReverseStringUsingIterativeMethod {
 			
 		}
 		
-		
 	}
 	
 	
 	public static void main(String[] args) {
 		ReverseStringUsingIterativeMethod obj=new ReverseStringUsingIterativeMethod();
-		obj.reverseStringWithIterativeApproach("Azharuddin");
+		obj.reverseStringWithIterativeApproach("A");
+		System.out.println();
+		obj.reverseStringWithIterativeApproach("Azhar Khan");
+		System.out.println();
+		obj.reverseStringWithIterativeApproach("");
+		System.out.println();
+		obj.reverseStringWithIterativeApproach(" ");
+		System.out.println();
 	}
 
 }
