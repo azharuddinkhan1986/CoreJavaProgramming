@@ -31,7 +31,6 @@ public class ReverseStringUsingRecursiveApproach {
 		
 		ReverseStringUsingRecursiveApproach obj=new ReverseStringUsingRecursiveApproach();
 		String result=obj.reverseStringRecursively("Azhar");
-		
 		System.out.println(result);
 	}
 	
