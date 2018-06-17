@@ -11,6 +11,11 @@ public class ReverseStringUsingIterativeMethod {
 	
 	public void reverseStringWithIterativeApproach(String text)
 	{
+		if(text.length()==0||text.equals(""))
+		{
+			System.out.println("String length is 0 or null");
+		}
+		
 		//Convert String into char array
 		char[] charArray=text.toCharArray();
 		//Iterate char array into reverse order to get reverse string of actual string
