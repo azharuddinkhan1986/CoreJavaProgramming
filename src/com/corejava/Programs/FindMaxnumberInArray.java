@@ -8,8 +8,6 @@ public class FindMaxnumberInArray {
 		int[] inputArray={1,2,3,33,44,7};
 		int maxNumber=getMinimumNumberFromAnIntegerArray(inputArray);
 		System.out.println("max Number in array is "+maxNumber);
-		
-		
 	}
  static int getMinimumNumberFromAnIntegerArray(int[] inputArray) {
 		// TODO Auto-generated method stub
@@ -20,7 +18,6 @@ public class FindMaxnumberInArray {
 			{
 				maxNumber=inputArray[i];
 			}
-			
 		}
 		return maxNumber;
 	}
